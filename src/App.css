@@ -1,0 +1,187 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 20px;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 176px auto 96px;
+  align-items: center;
+  box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+.icon-button {
+  padding: 12px;
+  width: 56px;
+}
+
+.icon-button:hover {
+  background-color: rgb(211, 207, 207);
+  border-radius: 4px;
+}
+
+
+.nav ul li {
+  list-style: none;
+  display: flex;
+  margin: 30px;
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.bell {
+  height: 33px;
+  margin: auto;
+
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 317px auto;
+}
+
+.sidebar {
+  border-right: 1px solid gray;
+}
+
+.sidebar ul li a {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 50px;
+}
+
+.sidebar ul li:hover {
+  background-color: #3D7196;
+}
+
+
+.footer {
+  height: 304px;
+  flex-shrink: 0;
+  background: #3D7196;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 920px auto 326px;
+  align-items: center;
+}
+
+.socialicon ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  margin-left: 132px;
+
+}
+
+.footer ul li {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  margin: 10px;
+  color: white;
+
+}
+
+.card {
+  width: 386px;
+  height: 75px;
+  margin: 25px 13px 0px 38px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+}
+
+.box {
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  background: #D9D9D9;
+  margin-top: 22px;
+  margin-left: 20px;
+
+}
+
+.lilday {
+  display: flex;
+  text-align: center;
+  margin: 30px;
+  line-height: 13px;
+  /* 61.905% */
+  font-size: 21px;
+  font-style: normal;
+
+}
+
+.day {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13px;
+  /* 61.905% */
+  margin: 0px 72px 33px 4px;
+
+}
+
+.calander {
+  border-radius: 22px;
+  background: rgba(123, 226, 195, 0.80);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 25px 13px 0px 160px;
+  justify-content: center;
+  align-items: center;
+}
+
+.daylist {
+  display: flex;
+  align-items: center;
+}
+
+
+.serviceButton {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 165px;
+  margin-top: 65px;
+}
+.woman{
+  margin: -1px auto;
+  display: grid;
+  grid-row: inherit;
+  /* justify-content: space-around; */
+  justify-items: center;
+}
+
+.callbtn{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 80px auto;
+  margin-left: 50px;
+}
+
+.callbtn img{
+  width: 233px;
+}
